@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <pthread.h>
+#include "opencv2/imgcodecs/imgcodecs_c.h"
 
 #define SECRET_NUM -1234
 extern int gpu_index;
